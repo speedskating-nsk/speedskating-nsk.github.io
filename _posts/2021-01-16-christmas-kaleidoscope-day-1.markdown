@@ -2,7 +2,7 @@
 layout: post
 title:  "Первенство НСО по шорт-треку на приз Рождественский калейдоскоп. День 1"
 date:   2021-01-16 22:16:29 +0700
-categories: jekyll update
+categories: photo games
 
 preview_image: /sources/2021-01-17/SDIM9410.jpg
 ---
