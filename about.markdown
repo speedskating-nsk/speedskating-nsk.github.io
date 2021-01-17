@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Приглашаем детей от 5 до 11 лет в секцию ШОРТ-ТРЕК. Занятия проходят на ледовой арене "Энергия" ул. Часовая 2 (Советский район) и "Ледовая арена" ул. Зорге 82/3 (Кировский район)
+Занятия проводят:
+Тренер Супрыткина Лариса Владимировна, Советский и Кировский районы (тел. 8-903-934-02-42)
+Тренер Ситникова Ольга Степановна , Советский район (тел. 8-913-067-94-46, 8-923-132-60-88)
+Шорт-трек - вид скоростного бега на коньках, заключающийся в максимально быстром преодолении соревновательной дистанции внутри хоккейной площадки. С 1992 года является олимпийским видом спорта.
+Наши воспитанники ежегодно участвуют во всероссийских соревнованиях, которые проходят в городах Урала, Сибири, а также Европейской части России. Каждое лето мы выезжаем на сборы (детский спортивный лагерь, Горный Алтай), ходим на пляж, играем в футбол, баскетбол, лапту и многое другое!
+Приходите к нам - с нами интересно! (Занятия бесплатные)
