@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   тренировки, соревнования, спортивные поездки, детские лагеря развитие конькобежного спорта и шорт-трека в г. Новосибирск.
   конькобежный спорт, шорттрек, шорт-трек новосибирск shorttrack speedskating nsk novosibirsk
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://speedskating-nsk.tk/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://speedskating-nsk.tk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: null
 github_username:  null
 vk_username:      short_track_nsk
