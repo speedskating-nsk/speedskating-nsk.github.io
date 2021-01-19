@@ -13,8 +13,12 @@ preview_image: /sources/2021-01-17/SDIM9410.jpg_740x370.png
 Дата: 17 января 2021 года
 Время: 16:00-19:00
 
-Больше фото вы можете посмотреть в [альбоме гуглфото (автор: Кононова Полина)][polina_album] 
+Больше фото вы можете посмотреть в альбомах: 
+- [автор: Кононова Полина][polina_album] 
+- [автор: Алина Гурицкая][guitskaya_alina_album]
+
 
 {% include carousel.html height="50" unit="%" duration="10" images=site.data.news_carousel.images %}
 
 [polina_album]:https://photos.google.com/share/AF1QipNDOvOJJb1kWuINvWL4TYLRpp3LxrvWesM1Foau11GhyRtCbY0QFI6JTNpPYbGRVg?key=Q3lsVEZQaGN0QVkxNlRKRWJ6WDhMdXhhZ21BMlpB
+[guitskaya_alina_album]:https://yadi.sk/d/zOOm3x-DkueKPw?w=1
