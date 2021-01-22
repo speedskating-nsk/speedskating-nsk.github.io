@@ -7,7 +7,7 @@ preview_image: /sources/2021-01-17/oleg_demin_lr.png
 ---
 
 ![Награждение. Первенство новосибирской области по шорт-треку]({{page.preview_image}}){: style="float:right;"}
-
+:1st_place_medal:
 В минувшие выходные проходило первенство НСО по шорт-треку **"Рождественский калейдоскоп"**, 
 участие в котором принимали спортсмены из г. Новосибирск и г. Татарск, НСО.
 
@@ -112,7 +112,7 @@ preview_image: /sources/2021-01-17/oleg_demin_lr.png
 [автор: Кононова Полина][polina_album_day1],
 [автор: Гурицкая Алина][guitskaya_alina_album]  
 День 2:
-[автор: Требушинин Андрей][trebushinin_album],
+[автор: Требушинин Андрей vk][trebushinin_album] [google][trebushinin_album_mirror],
 [автор: Кононова Полина][polina_album_day2]
 
 
@@ -122,5 +122,6 @@ preview_image: /sources/2021-01-17/oleg_demin_lr.png
 [guitskaya_alina_album]:https://yadi.sk/d/zOOm3x-DkueKPw?w=1
 
 [trebushinin_album]:https://vk.com/album-187447008_276953830
+[trebushinin_album_mirror]:https://photos.app.goo.gl/FMvC1ra6CGhParBC8
 [polina_album_day2]:https://photos.app.goo.gl/ok3B3zd9pszoYtV16
 
