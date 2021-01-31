@@ -4,32 +4,28 @@ title: Расписание занятий
 permalink: /schedule/
 ---
 
-### Неделя 25-31 ярнаря 2021
-#### Группа Супрыткина Л.В./Супрыткин Н.В.
+{% if site.paginate %}
+{% assign posts =  paginator.posts %}
+{% else %}
+{% assign posts = site.posts %}
+{% endif %}
 
-|        | Фламинго                       			| Энергия                        				|
-|--------|--------------------------------------|---------------------------------------|
-| Пн     | -                             				|  16:45-18:00    НВ будет       				|
-| Вт     | 8:00-9:00                     				|  -				                    				|
-| Ср     |  -                            				| 9:15-10:30; 16:30-17:45    НВ будет       				|
-| Чт     | 8:00-9:00                     				|  16:45-18:00    НВ не будет   				|
-| Пт     |           -                    			|   -                           				|
-| Сб     |            -                   			|  17:15-18:30    НВ будет       				|
-| Вс     | 7:30-8:30                     				|  17:45-19:00    НВ не будет           |
-
-#### Группа Ситникова О.С.
-
-|        | Энергия        				|
-|--------|------------------------|
-| Пн     | 16:45-18:00    				|
-| Вт     | 8:00-9:00      				|
-| Ср     | 9:15-10:30; 16:30-17:45    				|
-| Чт     | 16:45-18:00    				|
-| Пт     |  -             				|
-| Сб     | 17:15-18:30    				|
-| Вс     | 17:45-19:00    				|
-
-### Энергия:
-![фото расписания](/sources/schedule/20210123_190233.jpg)
-
-
+<ul class="post-list">
+	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+	{%- for post in posts -%}
+		{%- if post.tags contains "schedule" -%}
+			<li>
+				<span class="post-meta">{{ post.date | date: date_format }}</span>
+				<h3>
+					<div>
+						<a class="post-link" href="{{ post.url | relative_url }}">
+							{{ post.title | escape }}
+						</a>
+					</div>
+					<div style="clear:right"></div>
+				</h3>
+				{%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+			</li>
+		{%- endif -%}
+	{%- endfor -%}
+</ul>
