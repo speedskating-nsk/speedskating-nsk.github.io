@@ -28,5 +28,6 @@ tags: schedule
 | Сб     | 16:30-18:00   				|
 | Вс     | 17:30-19:00    				|
 
+
 ### Энергия:
 ![фото расписания](/sources/schedule/TdwJafKDTTU.jpg)
