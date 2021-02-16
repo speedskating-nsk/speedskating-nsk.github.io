@@ -23,13 +23,23 @@ email: speedskatingnsk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Новосибирская региональная физкультурно-спортивная общественная организация Федерация Новосибирской области по конькобежному спорту
   тренировки, соревнования, спортивные поездки, детские лагеря развитие конькобежного спорта и шорт-трека в г. Новосибирск.
-  конькобежный спорт, шорттрек, шорт-трек новосибирск shorttrack speedskating nsk novosibirsk
+  конькобежный спорт, шорттрек, шорт-трек 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://speedskating-nsk.tk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: null
 github_username:  null
 vk_username:      short_track_nsk
 instagram_username: shorttracknsk
+youtube_username: channel/UC1DGO91_hy9z3Ad1aFc_wIw
+locale: ru_RU
+social:
+  name: Федерация конькобежного спорта НСО
+  links:
+    - https://vk.com/short_track_nsk
+    - https://www.instagram.com/shorttracknsk/
+    - https://www.youtube.com/channel/UC1DGO91_hy9z3Ad1aFc_wIw
+
+
 
 # Build settings
 theme: minima
