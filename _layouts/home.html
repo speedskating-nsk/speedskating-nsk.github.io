@@ -28,13 +28,7 @@ layout: default
     <li>
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       <h3>
-        {%- if post.preview_image -%}
-        <img
-          src="{{ post.preview_image }}"
-          alt="{{ post.title }}"
-          style="width: 250px; float: right"
-        />
-        {%- endif -%}
+
         <div>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -42,7 +36,15 @@ layout: default
         </div>
         <div style="clear:right"></div>
       </h3>
+      {%- if post.preview_image -%}
+      <img
+        src="{{ post.preview_image }}"
+        alt="{{ post.title }}"
+        style="width: 250px; float: right"
+      />
+      {%- endif -%}
       {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+      <div style="clear: both;"></div>
     </li>
     {%- endunless -%}
     {%- endfor -%}
