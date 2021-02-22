@@ -3,7 +3,7 @@ layout: post
 title:  "Наши в Челябинске"
 date:   2021-02-20 00:00:00 +0700
 categories: photo games
-preview_image: /sources/2021-02-20/um_250.png
+preview_image: /sources/2021-02-20/um.png
 excerpt_separator: <!--more-->
 ---
 
