@@ -37,19 +37,29 @@ layout: default
         <div style="clear:right"></div>
       </h3>
       {%- if post.preview_image -%}
-      <img
+      <img class="image"
         src="{{ post.preview_image }}"
         alt="{{ post.title }}"
-        style="width: 250px; float: right"
+        style="float: right"
       />
       {%- endif -%}
       {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
       <div style="clear: both;"></div>
+      <hr/>
     </li>
     {%- endunless -%}
     {%- endfor -%}
   </ul>
-
+  <style>
+    .image{
+        width: 250px;
+    }
+    @media (max-width: 425px) {
+    .image{
+        width: 100%;
+    }
+    }
+    </style>    
   {% if site.paginate %}
   <div class="pager">
     <ul class="pagination">
