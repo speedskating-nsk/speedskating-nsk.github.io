@@ -30,5 +30,4 @@ tags: schedule
 
 
 ### Энергия:
-![фото расписания](/sources/schedule/4cCKTrGbKY.jpg)
-
+![фото расписания](/sources/schedule/UGryhnZ_1Eo.jpg)
