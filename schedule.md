@@ -4,6 +4,8 @@ title: Расписание занятий
 permalink: /schedule/
 ---
 
+## Самое актуальное расписание занятий у тренеров и в чате родителей
+
 {% if site.paginate %}
 {% assign posts =  paginator.posts %}
 {% else %}
