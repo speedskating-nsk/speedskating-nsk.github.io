@@ -41,12 +41,17 @@ social:
 show_excerpts: true
 
 
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
+
+sass:
+  load_paths:
+    - assets/css
 
 # Exclude from processing.
 # The following items will not be processed, by default.
