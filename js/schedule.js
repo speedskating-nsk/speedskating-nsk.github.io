@@ -19,8 +19,11 @@ export function updateSchedule(data){
 			${output}
 		</tbody>
 	</table>`;
-
-	document.getElementById('info').innerHTML = table;
+	if (table != window.last_table_content){
+		console.log("update schedule");
+		window.last_table_content = table;
+		document.getElementById('info').innerHTML = table;
+	}
 } 		
 
 export async function loadSchedule() {
