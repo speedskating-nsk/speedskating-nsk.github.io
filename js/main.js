@@ -1,5 +1,8 @@
-import {loadSchedule} from "../js/schedule";
+import {loadSchedule, updateSchedule} from "../js/schedule";
 
-loadSchedule();
-setInterval(loadSchedule, 10000);
+
+
+// updateSchedule(getDefSchedule());
+window.updateSchedule = updateSchedule;
+setInterval(loadSchedule, 500);
 
