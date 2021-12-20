@@ -11,7 +11,10 @@ images_car:
   - image: /sources/2021-12-16/images/polina.jpeg
   - image: /sources/2021-12-16/images/tetyakov.jpeg
   - image: /sources/2021-12-16/images/together.jpeg
-protocol: "/sources/2021-12-16/tarko-sale-10122021.pdf"
+protocol: 
+  - "/sources/2021-12-16/ms_so_12_13_14_15_tarkosale_troebore.pdf"
+  - "/sources/2021-12-16/ms_so_12_13_tarkosale.pdf"
+  - "/sources/2021-12-16/ms_so_14_15_tarkosale.pdf"
 ---
 
 
@@ -20,8 +23,9 @@ protocol: "/sources/2021-12-16/tarko-sale-10122021.pdf"
 10-12 декабря 2021г. наши спортсмены приняли участие в соревнованиях "Межрегиональные соревнования по конькобежному спорту (дисциплина шорт-трек) «Сочинский ОЛИМП», отдельные дистанции и эстафета", которые проходили в северном городе Тарко-Сале.
 
 
-[Протокол соревнований]({{page.protocol}})
-
+[Итоговая классификация]({{page.protocol[0]}})  
+[Протокол 12-13 лет]({{page.protocol[1]}})  
+[Протокол 14-15 лет]({{page.protocol[2]}})  
 
 {% include carousel.html height="100" unit="%" duration="10" images=page.images_car %}
 
